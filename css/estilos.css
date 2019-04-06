@@ -82,7 +82,7 @@ a {
 }
 .contenido-paisajes-retratos div {
   margin: 0 auto;
-  width: 33%;
+  width: 100%;
 
 
 }
@@ -186,6 +186,9 @@ ul{
   padding-left: 0px;
 }
 
+.contenido-paisajes-retratos div{
+  width: 100%;
+}
 .contenido-paisajes-retratos img{
   width: 80%;
 }
