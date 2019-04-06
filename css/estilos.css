@@ -75,10 +75,13 @@ a {
 }
 
 .contenido-paisajes-retratos{
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
 }
 .contenido-paisajes-retratos div {
+  margin: 0 auto;
   width: 33%;
 
 
