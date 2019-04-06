@@ -1,0 +1,279 @@
+body {
+  font-family: 'Dancing Script',cursive;
+  src: url('DancingScript-Bold.ttf','DancingScript-Regular.ttf');
+  color: white;
+  background-color: black;
+}
+
+h1{
+  position: relative;
+  margin: 8px 8px 8px 12px;
+  font-size: 3em;
+  text-shadow: 2px 2px 2px 0px #02010a;
+}
+
+
+
+
+a {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+
+
+#actual {
+  text-decoration: none;
+}
+
+#wrapper{
+  height: auto;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.imagen-sec-izquierda img, .imagen-sec-derecha img{
+  text-align: center;
+  padding-bottom: 0px;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+
+.imagen-sec-izquierda a, .imagen-sec-derecha a{
+
+  padding-top: 8px;
+  color: black;
+  font-size: 1.5em;
+}
+
+.imagen-sec-izquierda a:hover img{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 3px 2px #82c3a6;
+  border: 2px solid black;
+}
+
+.imagen-sec-derecha a:hover img{
+  transform: translate(20px, -5px);
+  box-shadow: 2px 2px 3px 2px #82c3a6;
+  border: 2px solid black;
+}
+
+.pie-de-pagina{
+  margin: 0px auto;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #C6d5c5;
+  padding-left: 0px;
+  color: black;
+}
+
+
+
+.redes-sociales img {
+  width: 15px;
+}
+
+/* NOTE: para dispositivos móviles y pantallas menores a 900px */
+@media (max-width: 900px) {
+
+h1{
+
+  text-align: center;
+}
+
+#wrapper{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.titulo{
+  width: 100%;
+  margin: 0;
+}
+
+.menu-principal{
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.menu-principal div{
+  text-align: center;
+  width: 33%;
+}
+.contenido{
+  padding: 0px;
+  width: 100%;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.imagen-central div{
+  width: 100%;
+
+  background-color: #82c3a6;
+  text-align: center;
+
+}
+.imagen-central img{
+  box-shadow: 2px 2px 2px #02010a;
+
+  width: 70%;
+  margin: 15px;
+}
+
+.imagen-secundaria div{
+  
+  text-align: center;
+
+  width: 100%;
+  background-color: #d5c75f;
+  display: flex;
+  flex-direction: column;
+}
+.imagen-secundaria img{
+
+  box-shadow: 2px 2px 2px #02010a;
+  border: 1px solid black;
+  width: 70%;
+  margin: 15px auto;
+
+
+}
+
+.pie-de-pagina{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+}
+
+.pie-de-pagina div{
+  width: 100%;
+
+}
+
+h2{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+
+}
+ul{
+  list-style-type: none;
+  padding-left: 40px;
+}
+
+.contacto, .termino, .redes-sociales, .derechos{
+  padding-left: 0px;
+}
+
+
+
+}
+
+
+
+
+/* NOTE: Para pantalla desktop que exceda los 900px */
+@media screen and (min-width: 900px) {
+  h1{
+    text-align: left;
+  }
+
+  #wrapper{
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .titulo{
+    width: 70%;
+  }
+
+  .menu-principal{
+    width: 30%;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+  }
+
+  .menu-principal div{
+    text-align: center;
+    width: 33%;
+  }
+  .contenido{
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .imagen-central div{
+    width: 100%;
+
+    margin: auto;
+    background-color: #82c3a6;
+    text-align: center;
+
+  }
+  .imagen-central img{
+
+    box-shadow: 2px 2px 2px #02010a;
+    width: 80%;
+    margin: 15px auto;
+  }
+
+
+  .imagen-secundaria div{
+    width: 50%;
+
+
+    background-color: #d5c75f;
+    text-align: center;
+    align-items: center;
+    display:  table-cell;
+    padding: 0px;
+
+  }
+  .imagen-secundaria img{
+    box-shadow: 2px 2px 2px #02010a;
+    border: 1px solid black;
+    width: 80%;
+    margin: 15px 15px 15px 0px;
+  }
+
+  .pie-de-pagina{
+    width: 900px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+  }
+
+  .pie-de-pagina div{
+    width: 25%;
+
+  }
+
+  h2{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+
+  }
+
+  ul{
+    list-style-type: none;
+    padding-left: 8px;
+  }
+  .contacto, .termino, .redes-sociales, .derechos{
+    padding: 0px;
+
+  }
+
+  }
