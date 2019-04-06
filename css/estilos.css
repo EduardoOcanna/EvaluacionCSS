@@ -76,6 +76,7 @@ a {
 
 .contenido-paisajes-retratos{
   margin: 0 auto;
+  padding: 15px;
   display: flex;
   flex-flow: wrap;
 }
