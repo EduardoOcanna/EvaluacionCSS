@@ -84,6 +84,7 @@ a {
 
 }
 
+
 /* NOTE: para dispositivos móviles y pantallas menores a 900px */
 @media (max-width: 900px) {
 
@@ -182,6 +183,9 @@ ul{
   padding-left: 0px;
 }
 
+.contenido-paisajes-retratos img{
+  width: 80%;
+}
 
 
 }
