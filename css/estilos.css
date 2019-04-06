@@ -75,8 +75,7 @@ a {
 }
 
 .contenido-paisajes-retratos{
-  margin: 0 auto;
-  padding: 15px;
+
   display: flex;
   flex-flow: wrap;
 }
@@ -182,7 +181,8 @@ ul{
 }
 
 .contenido-paisajes-retratos div{
-
+  margin: 0px auto;
+  padding: 15px;
   width: 100%;
 }
 .contenido-paisajes-retratos div img{
