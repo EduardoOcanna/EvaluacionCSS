@@ -181,9 +181,11 @@ ul{
 }
 
 .contenido-paisajes-retratos div{
+
   width: 100%;
 }
 .contenido-paisajes-retratos div img{
+  margin: 15px auto;
   width: 80%;
 }
 
