@@ -74,6 +74,16 @@ a {
   width: 15px;
 }
 
+.contenido-paisajes-retratos{
+  display: flex;
+  flex-flow: row wrap;
+}
+.contenido-paisajes-retratos div {
+  width: 33%;
+
+
+}
+
 /* NOTE: para dispositivos móviles y pantallas menores a 900px */
 @media (max-width: 900px) {
 
@@ -127,7 +137,7 @@ h1{
 }
 
 .imagen-secundaria div{
-  
+
   text-align: center;
 
   width: 100%;
