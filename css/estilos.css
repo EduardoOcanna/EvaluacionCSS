@@ -75,7 +75,7 @@ a {
 }
 
 .contenido-paisajes-retratos div{
-
+  background-color: 
   display: flex;
   flex-direction: row;
 }
@@ -184,10 +184,14 @@ ul{
   margin: 0px auto;
   padding: 15px;
   width: 100%;
+
 }
 .contenido-paisajes-retratos div img{
   margin: 15px 15px 15px 15px auto;
   width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 
