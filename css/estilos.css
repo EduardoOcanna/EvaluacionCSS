@@ -297,17 +297,24 @@ ul{
 
   }
 
-  .contenido-paisajes-retratos div{
+  .contenido-paisajes-retratos{
     margin: 0px auto;
-
-    width: 33%;
+    width: 900px;
     display: flex;
     flex-flow: row wrap;
+  }
+
+  .contenido-paisajes-retratos div{
+    text-align: center;
+    width: 33.333%;
+
+
 
   }
   .contenido-paisajes-retratos div img{
     margin: 15px auto;
     width: 80%;
+
 
 
   }
