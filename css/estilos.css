@@ -79,7 +79,20 @@ a {
 
 }
 
+.imagen-1 img {
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
 
+.contenido-paisajes-retratos div:nth-child(even){
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.imagen-3 img{
+  filter: sepia(90%);
+  -webkit-filter: sepia(90%);
+}
 
 /* NOTE: para dispositivos móviles y pantallas menores a 900px */
 @media (max-width: 900px) {
